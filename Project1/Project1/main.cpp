@@ -1,11 +1,25 @@
 #include<stdio.h>
 
-
+void ex01();
+void ex02();
+void ex03();
 int main() {
+	// 자료형, 정수형
+	//ex01 ();
+	
+	//실수형
+	//ex02();
+
+	// bool
+	//ex03();
+
+	return 0;
+}
+void ex01() {
 	// 단위 byte  1byte = 8bit
 	// 정수형 : char(1), short(2), int(4), long(4), long long(8) ...
 	// 실수형 : float(4), double(8)
-	
+
 	// 양수 음수 중 양수만 표현하겠다.
 	unsigned int i = 0;
 
@@ -34,6 +48,25 @@ int main() {
 
 	// 2의 보수법 (음의 정수 찾기)
 	// 0 -> 1로, 1 -> 0으로 바꾼 후 1을 더해준다.
+}
+void ex02() {
+	//실수형
 
-	return 0;
+	// int i = 4 + 4.0;
+	// 4.0 은 실수형임 -> 정수형 4로 형변환 후 연산
+
+	//부동소수점
+	// 부호비트 | 지수비트 | 가수비트
+	// float 32bit 이므로 double보다 덜 자세함
+	// double 64bit 이므로 float보다 더 자세하게 가능
+	// 32bit 에서 1bit 부호비트 8bit 지수비트 23bit 가수비트
+	// 정확한 값을 표현 못할 수도 있음
+	
+	// 정수는 정수, 실수는 실수끼리 연산하되, 쩔수 없을 경우 형변환 명시적으로
+	float f = 10.25f + (float)20;
+
+}
+void ex03() {
+	//bool 1Byte
+	bool isTrue = true;
 }
