@@ -25,6 +25,11 @@
 #define A11 0x400
 #define A12 0x800
 
+typedef struct user
+{
+	float f;
+	int age;
+}USER;
 
 int Add(int a, int b);
 int Fibonacci(int num);
@@ -36,6 +41,7 @@ void ex03();
 void ex04(); //비트연산자
 void ex05(); //함수
 void ex06(); //재귀함수
+void ex07(); //배열
 
 
 int main() {
@@ -68,6 +74,12 @@ int main() {
 
 	//재귀함수
 	//ex06();
+
+	ex07();
+	USER user;
+	USER user2 = { 3.15f, 20 };
+
+	sizeof(user2);
 
 	return 0;
 }
@@ -170,6 +182,13 @@ void ex06()
 	//재귀 문제가 있음 너무 많이 호출함
 	int result2 = Fibonacci_re(8);
 	printf("%d", result2);
+}
+void ex07() {
+	int array[10] = { 1 , 2 };
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%d ", array[i]);
+	}
 }
 
 
