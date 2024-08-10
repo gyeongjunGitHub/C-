@@ -1,5 +1,2 @@
-﻿  main.cpp
-C:\Users\Hi\Desktop\C++\Project1\Project1\main.cpp(79,7): warning C4101: 'user' :참조되지 않은 지역 변수입니다.
-C:\Users\Hi\Desktop\C++\Project1\Project1\main.cpp(97,9): warning C4305: '초기화 중': 'int'에서 'char'(으)로 잘립니다.
-C:\Users\Hi\Desktop\C++\Project1\Project1\main.cpp(97,11): warning C4309: '초기화 중': 상수 값이 잘립니다.
+﻿  main2.cpp
   Project1.vcxproj -> C:\Users\Hi\Desktop\C++\Project1\x64\Debug\Project1.exe
