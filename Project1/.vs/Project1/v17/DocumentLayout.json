@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\func.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|solutionrelative:Project1\\func.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|solutionrelative:Project1\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C79E8ECC-B1E4-4922-8454-C2F8DA259697}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main.cpp",
-              "RelativeDocumentMoniker": "Project1\\main.cpp",
-              "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main.cpp",
-              "RelativeToolTip": "Project1\\main.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "main4.cpp",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main4.cpp",
+              "RelativeDocumentMoniker": "Project1\\main4.cpp",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main4.cpp",
+              "RelativeToolTip": "Project1\\main4.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-10T09:21:05.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "common.h",
-              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\common.h",
-              "RelativeDocumentMoniker": "Project1\\common.h",
-              "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\common.h",
-              "RelativeToolTip": "Project1\\common.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-10T09:09:33.336Z",
+              "WhenOpened": "2024-08-14T17:24:28.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "func.cpp",
-              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\func.cpp",
-              "RelativeDocumentMoniker": "Project1\\func.cpp",
-              "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\func.cpp",
-              "RelativeToolTip": "Project1\\func.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Title": "main3.cpp",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main3.cpp",
+              "RelativeDocumentMoniker": "Project1\\main3.cpp",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main3.cpp",
+              "RelativeToolTip": "Project1\\main3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-10T08:03:17.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main2.cpp",
-              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main2.cpp",
-              "RelativeDocumentMoniker": "Project1\\main2.cpp",
-              "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main2.cpp",
-              "RelativeToolTip": "Project1\\main2.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-10T07:23:31.006Z",
+              "WhenOpened": "2024-08-14T17:23:53.359Z",
               "EditorCaption": ""
             }
           ]
