@@ -36,6 +36,5 @@ int main()
 		// free 메모리 해제
 		free(pInt1);
 	}
-
 	return 0;
 }
