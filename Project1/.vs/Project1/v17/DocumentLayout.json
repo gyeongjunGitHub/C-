@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main4.cpp",
-              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main4.cpp",
-              "RelativeDocumentMoniker": "Project1\\main4.cpp",
-              "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main4.cpp",
-              "RelativeToolTip": "Project1\\main4.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-14T17:24:28.76Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,9 +28,22 @@
               "RelativeDocumentMoniker": "Project1\\main3.cpp",
               "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main3.cpp",
               "RelativeToolTip": "Project1\\main3.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAADwvycAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-14T17:23:53.359Z",
+              "WhenOpened": "2024-08-15T09:08:05.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main4.cpp",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main4.cpp",
+              "RelativeDocumentMoniker": "Project1\\main4.cpp",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\C\u002B\u002B\\Project1\\Project1\\main4.cpp",
+              "RelativeToolTip": "Project1\\main4.cpp",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAEsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-14T17:24:28.76Z",
               "EditorCaption": ""
             }
           ]
