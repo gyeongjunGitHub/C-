@@ -43,7 +43,16 @@
       <Filter>소스 파일\NewFilter1</Filter>
     </ClCompile>
     <ClCompile Include="Arr.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="연결리스트.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="과제.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="myArr.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +63,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Arr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="myArr.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
