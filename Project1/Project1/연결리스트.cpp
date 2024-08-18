@@ -1,8 +1,15 @@
 #include<stdio.h>
-
+#include"List.h"
 int main()
 {
-	// 1. 가변배열 구현
 
-	// 2. 가변배열 안에 넣은 데이터 버블정렬
+	myList m;
+	InitList(&m);
+
+	pushFront(&m, 100);
+	pushBack(&m, 200);
+	pushFront(&m, 300);
+
+	ReleaseList(&m);
+	return 0;
 }

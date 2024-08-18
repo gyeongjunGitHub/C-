@@ -54,6 +54,12 @@
     <ClCompile Include="myArr.cpp">
       <Filter>소스 파일\NewFilter1</Filter>
     </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="클래스.cpp">
+      <Filter>소스 파일\NewFilter1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
