@@ -13,69 +13,87 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\NewFilter1">
+    <Filter Include="소스 파일\초반 ~ 클래스">
       <UniqueIdentifier>{ae7d5b78-c16f-49a5-b7ed-56a6ad2199f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\배열%28클래스%29">
+      <UniqueIdentifier>{a8634e31-cb29-4606-81e9-6d95b777da85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\배열%28클래스%29">
+      <UniqueIdentifier>{30eabfab-e9d5-4bc2-92a4-dc75fba4fac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\초반 ~ 클래스">
+      <UniqueIdentifier>{88c96823-800a-47b9-a48b-2b0ce8825b4b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="func.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="main2.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="main3.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="main4.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="main5.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="main6.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="가변배열.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="Arr.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="연결리스트.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="과제.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="myArr.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="List.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="클래스.cpp">
-      <Filter>소스 파일\NewFilter1</Filter>
+      <Filter>소스 파일\초반 ~ 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CArr.cpp">
+      <Filter>소스 파일\배열%28클래스%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CArrListMain.cpp">
+      <Filter>소스 파일\배열%28클래스%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="func.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Arr.h">
+      <Filter>헤더 파일\초반 ~ 클래스</Filter>
     </ClInclude>
     <ClInclude Include="common.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\초반 ~ 클래스</Filter>
     </ClInclude>
-    <ClInclude Include="Arr.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="func.h">
+      <Filter>헤더 파일\초반 ~ 클래스</Filter>
     </ClInclude>
     <ClInclude Include="List.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\초반 ~ 클래스</Filter>
     </ClInclude>
     <ClInclude Include="myArr.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\초반 ~ 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CArr.h">
+      <Filter>헤더 파일\배열%28클래스%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
