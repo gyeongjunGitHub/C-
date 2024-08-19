@@ -69,9 +69,6 @@
     <ClCompile Include="클래스.cpp">
       <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
-    <ClCompile Include="CArr.cpp">
-      <Filter>소스 파일\배열%28클래스%29</Filter>
-    </ClCompile>
     <ClCompile Include="CArrListMain.cpp">
       <Filter>소스 파일\배열%28클래스%29</Filter>
     </ClCompile>
