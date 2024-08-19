@@ -16,14 +16,20 @@
     <Filter Include="소스 파일\초반 ~ 클래스">
       <UniqueIdentifier>{ae7d5b78-c16f-49a5-b7ed-56a6ad2199f3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\배열%28클래스%29">
-      <UniqueIdentifier>{a8634e31-cb29-4606-81e9-6d95b777da85}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\배열%28클래스%29">
-      <UniqueIdentifier>{30eabfab-e9d5-4bc2-92a4-dc75fba4fac0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="헤더 파일\초반 ~ 클래스">
       <UniqueIdentifier>{88c96823-800a-47b9-a48b-2b0ce8825b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\가변배열%28클래스%29">
+      <UniqueIdentifier>{30eabfab-e9d5-4bc2-92a4-dc75fba4fac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\가변배열%28클래스%29">
+      <UniqueIdentifier>{a8634e31-cb29-4606-81e9-6d95b777da85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\연결리스트%28클래스%29">
+      <UniqueIdentifier>{d5b42feb-4a53-414a-b1a1-18edfc8d0171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\연결리스트%28클래스%29">
+      <UniqueIdentifier>{c3e484dd-365c-493c-8e42-71f1fdba9f21}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -70,7 +76,10 @@
       <Filter>소스 파일\초반 ~ 클래스</Filter>
     </ClCompile>
     <ClCompile Include="CArrListMain.cpp">
-      <Filter>소스 파일\배열%28클래스%29</Filter>
+      <Filter>소스 파일\가변배열%28클래스%29</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListMain.cpp">
+      <Filter>소스 파일\연결리스트%28클래스%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -90,7 +99,10 @@
       <Filter>헤더 파일\초반 ~ 클래스</Filter>
     </ClInclude>
     <ClInclude Include="CArr.h">
-      <Filter>헤더 파일\배열%28클래스%29</Filter>
+      <Filter>헤더 파일\가변배열%28클래스%29</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일\연결리스트%28클래스%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
