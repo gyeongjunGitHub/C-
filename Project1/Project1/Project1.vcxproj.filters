@@ -31,6 +31,9 @@
     <Filter Include="헤더 파일\연결리스트%28클래스%29">
       <UniqueIdentifier>{c3e484dd-365c-493c-8e42-71f1fdba9f21}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\네임스페이스">
+      <UniqueIdentifier>{02999797-122f-45eb-831d-b8c38da11747}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="func.cpp">
@@ -80,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="LinkedListMain.cpp">
       <Filter>소스 파일\연결리스트%28클래스%29</Filter>
+    </ClCompile>
+    <ClCompile Include="네임스페이스.cpp">
+      <Filter>소스 파일\네임스페이스</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
