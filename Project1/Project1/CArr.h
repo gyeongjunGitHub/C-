@@ -63,21 +63,61 @@ public:
 			// 기존에 이터레이터가 가지고 있던 주소는
 			// 가변배열이 메모리 재할당 시 가변배열의 주소가 달라지기 때문에 이터레이터로 값을 참조하면 기존주소의 메모리는 해재되었기 때문에 쓸모없다.
 			// 또는 end iterator일 경우
-			if (m_pArr->m_pData == m_pData || m_iIdx == -1)
+			if (m_pArr->m_pData != m_pData || m_iIdx == -1)
 			{
 				assert(nullptr);
 			}
 			return m_pData[m_iIdx];
 		}
-		iterator& operator ++()
+		bool operator == (const iterator& _otheriter)
+		{
+			if (this->m_pArr == _otheriter.m_pArr && this->m_iIdx == _otheriter.m_iIdx)
+			{
+				return true;
+			}
+			return false;
+		}
+		bool operator != (const iterator& _otheriter)
+		{
+			return !(*this == _otheriter);
+		}
+
+		// 전위 & 후위
+
+		// 전위
+		iterator& operator ++ ()
+		{
+			// end iterator 일 경우.
+			// iterator의 주소값 변경 m_pData != m_pArr->m_pData 일 경우
+			if (m_pArr->m_pData != m_pData || m_iIdx == -1)
+			{
+				assert(nullptr);
+			}
+
+			// iterator 가 마지막 데이터를 가리키고있다.
+			if (m_iIdx == m_pArr->returnSize() - 1)
+			{
+				m_iIdx = -1;
+			}
+			else
+			{
+				this->m_iIdx++;
+			}
+
+			return *this;
+		}
+		iterator& operator -- ()
+		{
+			return *this;
+		}
+
+		// 후위
+		// 반환타입은 복사본
+		// 호출 시점이 늦어지거나 하지 않는다.
+		iterator operator ++(int)//아무의미없는 int 그냥 이렇게 쓰면 후위연산자로인식한다
 		{
 
 		}
-		iterator& operator --()
-		{
-
-		}
-	
 
 	public:
 		iterator() // 생성자

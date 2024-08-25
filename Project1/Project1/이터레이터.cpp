@@ -49,15 +49,20 @@ int main()
 	{
 		// list.end(); 는 마지막 노드보다 하나 더 다음이다.
 		// list.end(); 가 만약 마지막 노드라면 마지막 노드의 데이터를 출력 할 수 없다.
-		std::cout << *iter << std::endl;
+		//std::cout << *iter << std::endl;
 	}
 
 	//내가만든 가변배명
 
 	CArr<int> cArr;
 	cArr.PushBack(33);
+	cArr.PushBack(44);
 	CArr<int>::iterator myiter = cArr.begin();
-
+	
+	for (; myiter != cArr.end(); ++myiter)
+	{
+		std::cout << *myiter << std::endl;
+	}
 	// *, (++, --)전위 후위, ==, != 구현해보기 
 	
 
