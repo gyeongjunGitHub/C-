@@ -1,9 +1,5 @@
 ﻿  이터레이터.cpp
-C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(14,13): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
 C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(15,13): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
-C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(16,17): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
-C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(31,7): error C2679: 이항 '<<': 오른쪽 피연산자로 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
-C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(31,7): error C2679:         with
-C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(31,7): error C2679:         [
-C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(31,7): error C2679:             _Ty=int
-C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(31,7): error C2679:         ]
+C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(16,13): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
+C:\Users\Hi\Desktop\C++\Project1\Project1\이터레이터.cpp(17,17): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
+  Project1.vcxproj -> C:\Users\Hi\Desktop\C++\Project1\x64\Debug\Project1.exe

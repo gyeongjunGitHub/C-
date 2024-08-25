@@ -41,6 +41,62 @@ public:
 	T& operator[](int index);
 
 	int returnSize();
+
+	class iterator; //전방 선언
+	iterator begin();
+	iterator end();
+
+	// innerClass iterator
+	// CArr 과 innerClass로 만든 iterator는 별개이다.
+	// CArr 16Byte iterator m_i 의 크기 포함 X.
+	// innerCalss는 상위 클래스의 private 필드에 접근할 수 있다.
+	class iterator
+	{
+	private:	
+		CArr* m_pArr;		// 가변배열의 주소
+		T*		m_pData;	// 데이터의 처음 시작주소
+		int		m_iIdx;		// 인덱스 값
+		
+	public:
+		T& operator *()
+		{
+			// 기존에 이터레이터가 가지고 있던 주소는
+			// 가변배열이 메모리 재할당 시 가변배열의 주소가 달라지기 때문에 이터레이터로 값을 참조하면 기존주소의 메모리는 해재되었기 때문에 쓸모없다.
+			// 또는 end iterator일 경우
+			if (m_pArr->m_pData == m_pData || m_iIdx == -1)
+			{
+				assert(nullptr);
+			}
+			return m_pData[m_iIdx];
+		}
+		iterator& operator ++()
+		{
+
+		}
+		iterator& operator --()
+		{
+
+		}
+	
+
+	public:
+		iterator() // 생성자
+			:m_pArr(nullptr)
+			,m_pData(nullptr)
+			,m_iIdx(-1)
+		{
+
+		}
+		iterator(CArr* _pArr, T* _pData, int _iIdx)
+			:m_pArr(_pArr)
+			,m_pData(_pData)
+			,m_iIdx(_iIdx)
+		{
+		}
+		~iterator()
+		{
+		}// 소멸자
+	};
 };
 
 // new 키워드는 동적 할당
@@ -69,7 +125,6 @@ CArr<T>::CArr()
 	// new 동적할당 키워드, C에서는 malloc
 	m_pData = new T[2]; // T 자료형 2개 크기 메모리 할당
 }
-
 
 template<typename T>
 CArr<T>::~CArr()
@@ -132,3 +187,25 @@ int CArr<T>::returnSize()
 {
 	return m_iCount;
 }
+
+template<typename T>
+//        여기까지 반환타입| 
+// 반환타입이 이너클레스인 경우 typename을 붙여주어야 한다.
+typename CArr<T>::iterator CArr<T>::begin()
+{
+	if (this->m_iCount == 0)
+	{
+		return iterator(this, this->m_pData, -1); // 데이터가 없는 경우 begin() == end(); -1을 end()로 볼 예정
+	}
+	// 시작을 가리키는 이터레이터를 반환해줌
+	return iterator(this, this->m_pData, 0); // 임시객체 변수명 필요없음.
+}
+
+template<typename T>
+//        여기까지 반환타입| 
+// 반환타입이 이너클레스인 경우 typename을 붙여주어야 한다.
+typename CArr<T>::iterator CArr<T>::end()
+{
+	return iterator(this, this->m_pData, -1); // 임시객체 변수명 필요없음.
+}
+
